@@ -11,7 +11,7 @@ const projects = [
     title: 'SnipShare',
     description:
       "Application de partage de snippets entre développeurs avec React et Vite, PostgreSQL et Tailwind CSS.",
-    image: '/images/snipShare.png',
+    image: '/images/snipshare.png',
     video: 'https://portfolio-astou.s3.eu-west-3.amazonaws.com/snipshare.mp4',
     link: 'https://github.com/seneastou/SnipShare',
   },
