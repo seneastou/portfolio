@@ -52,7 +52,7 @@ export default function Contact() {
           </a>
           <div className="mt-6">
             <a
-              href="/CV/CVAstouDev.pdf"
+              href="https://portfolio-astou.s3.eu-west-3.amazonaws.com/CVAstouDev.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block underline text-fuchsia-700 font-extrabold hover:text-fuchsia-900 transition"

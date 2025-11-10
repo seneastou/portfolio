@@ -2,7 +2,7 @@
 import React from 'react';
 
 interface FooterProps {
-  textColor?: string; // Exemple : "text-fuchsia-700"
+  textColor?: string; 
 }
 
 export default function Footer({ textColor = 'text-black' }: FooterProps) {
@@ -24,7 +24,6 @@ export default function Footer({ textColor = 'text-black' }: FooterProps) {
               <p className="font-bold uppercase text-sm whitespace-nowrap">Réseaux</p>
               <nav aria-label="Réseaux sociaux" className={`flex flex-wrap gap-4 font-semibold text-sm underline ${textColor}`}>
                 <a href="https://github.com/seneastou" target="_blank" rel="noopener noreferrer" aria-label="Github Astou SENE">Github</a>
-                <a href="https://www.malt.fr/profile/astoufallsene" aria-label="Malt Astou SENE">Malt</a>
                 <a href="https://www.linkedin.com/in/astou-fall-sene-32b0771a1/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Astou SENE">LinkedIn</a>
               </nav>
             </div>
