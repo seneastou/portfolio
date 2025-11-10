@@ -11,7 +11,7 @@ const projects = [
     title: 'SnipShare',
     description:
       "Application de partage de snippets entre développeurs avec React et Vite, PostgreSQL et Tailwind CSS.",
-    image: '/images/snipshare.png',
+    image: '/images/snipShare.png',
     video: 'https://portfolio-astou.s3.eu-west-3.amazonaws.com/snipshare.mp4',
     link: 'https://github.com/seneastou/SnipShare',
   },
@@ -58,7 +58,7 @@ export default function ProjectsPage() {
                 className="rounded-md object-cover mb-4 w-full h-[300px] cursor-pointer"
                 muted
                 playsInline
-                preload="none"
+               
                 poster={project.image}
                 onClick={() => setSelectedVideo(project.video)}
               />
